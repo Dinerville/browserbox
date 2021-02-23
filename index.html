@@ -15,6 +15,7 @@
   <!-- Custom Stylesheet -->
   <link rel="stylesheet" href="./css/settings.css">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./discord/discordInvite.css"/>
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-QS7SXK48CJ"></script>
 <script>
@@ -27,6 +28,14 @@
 </head>
 
 <body>
+  <script src="./discord/discordInvite.js"></script>
+<script>
+  discordInvite.init({
+  inviteCode: '6TRe5HuzBa',
+  title: 'browserbox',
+});
+discordInvite.render();
+</script>
 <div class="site-wrapper">
     <!-- Header Starts -->
 
@@ -46,8 +55,8 @@
   sandbox="allow-scripts allow-same-origin">
 </iframe>
 
-                <p>Browserbox is a tool that gives you easy access to the main browser engines (chromium, safari, firefox) in one click on Windows</p>
-                  
+                <p>Browserbox is a tool that gives you easy access to the main browser engines (chromium, safari, firefox) in one click on Windows. <br/>Join discord server to discuss, suggest ideas and get help</p>
+                <div id="discordInviteBox"></div>
                 </div>
             </div>
         </div>
